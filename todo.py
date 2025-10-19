@@ -2,7 +2,7 @@ class TodoList:
     def __init__(self):
         self.tasks = []
 
-    def add(self, task)
+    def add(self, task):
         """Agrega una tarea al listado"""
         self.tasks.append(task)
         return True
